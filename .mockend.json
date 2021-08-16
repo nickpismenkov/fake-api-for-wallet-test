@@ -1,0 +1,9 @@
+{
+  "User": {
+    "id": { "int": {} },
+    "name": { "string": {} },
+    "comments": {
+      "hasMany": "User"
+    }
+  },
+}
