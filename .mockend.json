@@ -2,6 +2,8 @@
   "User": {
     "id": { "int": { "min": 0, "max": 1000000 } },
     "name": { "string": {} },
-    
+    "comments": {
+      "hasMany": "User"
+    }
   },
 }
